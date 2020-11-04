@@ -1,0 +1,22 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+}
+
+header {
+    background-color: crimson;
+    padding: 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+a {
+    color: crimson;
+    text-decoration: none;
+}
