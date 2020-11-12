@@ -1,8 +1,15 @@
+/* Navbar name "Pete Scale" styles */
 .navbar-brand {
-    margin-left: 1rem;
-    font-size: 1.5rem;
+    margin-left: 1rem; /* Positioning */
+    font-size: 1.5rem; /* Typography */
 }
 
+/* Navbar button link color */
+.nav-link {
+    color: #41d2e9;
+}
+
+/* Align text centered */
 .centerText {
     text-align: center;
 }
