@@ -17,3 +17,7 @@
 .fontSize {
     font-size: 2rem;
 }
+
+.resizeImage {
+    max-width: 25%;
+}
