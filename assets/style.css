@@ -82,12 +82,13 @@ em {
 .portfolioImageChange {
     height: 10rem;
     width: 10rem;
+    margin-left: 2.5rem;
 }
 
 /* change font from bootstrap defaults */
 .portfolioFontChange {
     font-size: 1.5rem;
-    margin-top: 3rem;
+    margin-top: 1rem;
     margin-left: 3rem;
 }
 
