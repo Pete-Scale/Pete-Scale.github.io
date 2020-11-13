@@ -1,3 +1,4 @@
+/* ---------- global navbar css ---------- */
 /* navbar name "Pete Scale" styles */
 .navbar-brand {
     margin-left: 1rem; /* Positioning */
@@ -8,18 +9,57 @@
 .nav-link {
     color: #41d2e9;
 }
+/* ---------- global navbar css ---------- */
 
+
+/* ---------- global page header css ---------- */
 /* align text centered */
-.centerText {
+h1 {
     text-align: center;
 }
+/* ---------- global page header css ---------- */
 
-/* change bootstrap font size */
-.fontSize {
-    font-size: 1.75rem;
-}
 
-/* change bootstrap image size */
-.imageSize {
+/* ---------- index.html css ---------- */
+/* change profile image size from bootstrap default */
+.profileImageSize {
     max-width: 25%;
 }
+/* ---------- index.html css ---------- */
+
+/* ---------- contact.html css ---------- */
+/* change font from bootstrap default */
+.contactIconChange {
+    max-width: 25%;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    float: left;
+}
+
+.contactFontChange {
+    font-size: 1.5rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+/* change phone icon size to match height of gmail icon */
+.phoneIconSize {
+    max-width: 20%;
+}
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+    .contactFontChange {
+        font-size: 1.25rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+} 
+
+@media screen and (max-width: 767px) {
+    .phoneIconSize {
+        max-width: 25%;
+    }
+}
+/* ---------- contact.html css ---------- */
