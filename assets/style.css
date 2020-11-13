@@ -26,14 +26,15 @@ h1 {
     max-width: 25%;
 }
 
+/* profile font styles */
 .profileFontChange {
     font-size: 1.3rem;
 }
 
+/* SHOULDN'T BE NECESSARY BUT FOR SOME REASON IS */
 em {
     font-style: italic;
 }
-
 /* ---------- index.html css ---------- */
 
 /* ---------- contact.html css ---------- */
@@ -43,7 +44,7 @@ a {
     padding-top: 1rem;
 }
 
-/* change font from bootstrap default */
+/* change font from bootstrap defaults */
 .contactFontChange {
     font-size: 1.5rem;
     margin-top: 3rem;
@@ -54,6 +55,7 @@ a {
     max-width: 20%;
 }
 
+/* changes font styles to keep text from stacking viewed in medium screens */
 @media screen and (max-width: 991px) and (min-width: 768px) {
     .contactFontChange {
         font-size: 1.25rem;
@@ -61,6 +63,7 @@ a {
     }
 } 
 
+/* changes the phone icon viewed in small screens back to same % size as the other icons to keep text spacing consistent once they stack reactively */
 @media screen and (max-width: 767px) {
     .phoneIconSize {
         max-width: 25%;
