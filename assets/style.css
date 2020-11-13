@@ -70,3 +70,10 @@ a {
     }
 }
 /* ---------- contact.html css ---------- */
+
+/* ---------- portfolio.html css ---------- */
+/* Changes all portfolio images to be same size square */
+.portfolioImageChange {
+    height: 10rem;
+    width: 10rem;
+}
