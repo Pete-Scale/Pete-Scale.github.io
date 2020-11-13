@@ -1,4 +1,5 @@
-/* ---------- global navbar css ---------- */
+/* ---------- global css ---------- */
+
 /* navbar name "Pete Scale" styles */
 .navbar-brand {
     margin-left: 1rem; /* Positioning */
@@ -9,18 +10,23 @@
 .nav-link {
     color: #41d2e9;
 }
-/* ---------- global navbar css ---------- */
 
-
-/* ---------- global page header css ---------- */
 /* align text centered */
 h1 {
     text-align: center;
 }
-/* ---------- global page header css ---------- */
+
+/* define hyperlinks as block element to accept margin */
+a {
+    display: inline-block;
+    padding-top: 1rem;
+}
+
+/* ---------- global css ---------- */
 
 
 /* ---------- index.html css ---------- */
+
 /* change profile image size from bootstrap default */
 .profileImageSize {
     max-width: 25%;
@@ -35,14 +41,11 @@ h1 {
 em {
     font-style: italic;
 }
+
 /* ---------- index.html css ---------- */
 
+
 /* ---------- contact.html css ---------- */
-/* define hyperlinks as block element to accept .contactFontChange margin */
-a {
-    display: inline-block;
-    padding-top: 1rem;
-}
 
 /* change font from bootstrap defaults */
 .contactFontChange {
@@ -69,11 +72,23 @@ a {
         max-width: 25%;
     }
 }
+
 /* ---------- contact.html css ---------- */
 
+
 /* ---------- portfolio.html css ---------- */
+
 /* Changes all portfolio images to be same size square */
 .portfolioImageChange {
     height: 10rem;
     width: 10rem;
 }
+
+/* change font from bootstrap defaults */
+.portfolioFontChange {
+    font-size: 1.5rem;
+    margin-top: 3rem;
+    margin-left: 3rem;
+}
+
+/* ---------- portfolio.html css ---------- */
