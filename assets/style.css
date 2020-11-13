@@ -28,20 +28,15 @@ h1 {
 /* ---------- index.html css ---------- */
 
 /* ---------- contact.html css ---------- */
-/* change font from bootstrap default */
-.contactIconChange {
-    max-width: 25%;
-    margin-left: 4rem;
-    margin-right: 4rem;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-    float: left;
+/* define hyperlinks as block element to accept .contactFontChange margin */
+a {
+    display: inline-block;
 }
 
+/* change font from bootstrap default */
 .contactFontChange {
     font-size: 1.5rem;
     margin-top: 3rem;
-    margin-bottom: 3rem;
 }
 
 /* change phone icon size to match height of gmail icon */
@@ -53,7 +48,6 @@ h1 {
     .contactFontChange {
         font-size: 1.25rem;
         margin-top: 2rem;
-        margin-bottom: 2rem;
     }
 } 
 
