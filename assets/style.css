@@ -25,12 +25,22 @@ h1 {
 .profileImageSize {
     max-width: 25%;
 }
+
+.profileFontChange {
+    font-size: 1.3rem;
+}
+
+em {
+    font-style: italic;
+}
+
 /* ---------- index.html css ---------- */
 
 /* ---------- contact.html css ---------- */
 /* define hyperlinks as block element to accept .contactFontChange margin */
 a {
     display: inline-block;
+    padding-top: 1rem;
 }
 
 /* change font from bootstrap default */
