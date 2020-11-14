@@ -2,8 +2,8 @@
 
 ![Pete Scale Webpage](.\assets\portfolio_image.png)
 
-First assignment using HTML, CSS, and Git to refactor the Horiseon website to make it more accessible.
-Using Bootstrap CSS Framework to create a mobile responsive portfo
+Used Bootstrap CSS Framework to create a mobile responsive portfolio.
+
 ## Table of Contents
 [Description](#description)
 
@@ -17,42 +17,43 @@ Using Bootstrap CSS Framework to create a mobile responsive portfo
 
 ## Description
 
-Took the Horiseon webpage and optimized it without changing its appearance or function.
-
+Making a webpage for myself to display my portfolio and for networking. Consisting of a responsive layout, responsive images, and a consistent navbar. Three pages in total with an About me, a Contact, and a Portfolio page. Using media queries when necessary to keep the pages responsive, but using Bootstrap portfolio to minimize the need for them. Adding links to my Contact page so people can contact me and links to my Portfolio page so people can view my projects.
 
 ---
 
 ## Features
 
-- WHEN I view the source code
+* Functional, deployed application
 
-    THEN I find semantic HTML elements
-<br><br>
-- WHEN I view the structure of the HTML elements
+* GitHub repository with README describing the project
 
-    THEN I find that the elements follow a logical structure independent of styling and positioning
-<br><br>
-- WHEN I view the image elements
+* Navbar consistent on each page.
 
-    THEN I find accessible alt attributes
-<br><br>
-- WHEN I view the heading attributes
+* Navbar on each page contains links to About me, Contact, and Portfolio pages.
 
-    THEN they fall in sequential order
-<br><br>
-- WHEN I view the title element
+* All links work except for placeholder links on Portfolio page.
 
-    THEN I find a concise, descriptive title
+* Used semantic html.
 
-___
+* Each page has valid and correct HTML.
+
+* Contains my personalized information. (bio, name, images, links to social media, etc.)
+
+* Properly utilized Bootstrap components and grid system and only using a few media queries.
 
 ## Usage
 
-"Search Engine Optimization" navigation button now works correctly.
+* Click the navbar links to jump from page to page.
 
-The site is not fully reactive, so when the screen size is changed the elements of the page don't maintain a nice format... 
+    *while on page the link to that page is inactive
 
-but we didn't have to change that, and I'm tired :)
+* All three webpages are reactive from full screen on desktop all the way down to mobile devices.
+
+* Linkedin and Github links take you to my profiles on each from Contact page
+
+* Code Refactor project link and README link take you to the website page and open a readme in the browser respectively.
+
+*Note: Links for placeholder projects do not work.
 
 ---
 
@@ -60,7 +61,14 @@ but we didn't have to change that, and I'm tired :)
 
 Special thanks to Josh and the gang for their help!
 
-Also thanks to Google for teaching me how to make a table of contents!
+Also thanks to Bootstrap for making my webpage reactive!
 
 ## Credits
+
+https://getbootstrap.com/
+
+https://www.w3schools.com/bootstrap/
+
+*Note: Didn't use this in my webpage yet but this is where I got much of the code for my sample_contact_form.html file
+
 https://mdbootstrap.com/docs/jquery/forms/contact/
