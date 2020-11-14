@@ -1,6 +1,6 @@
 # Responsive-Portfolio README
 
-![Horiseon Webpage](\assets\images\code_refactor.png)
+![Pete Scale Webpage](.\assets\portfolio_image.png)
 
 First assignment using HTML, CSS, and Git to refactor the Horiseon website to make it more accessible.
 Using Bootstrap CSS Framework to create a mobile responsive portfo
