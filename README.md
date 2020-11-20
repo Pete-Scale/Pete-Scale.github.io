@@ -63,8 +63,6 @@ Special thanks to Josh and the gang for their help!
 
 Also thanks to Bootstrap for making my webpage reactive!
 
-## Credits
-
 https://getbootstrap.com/
 
 https://www.w3schools.com/bootstrap/
