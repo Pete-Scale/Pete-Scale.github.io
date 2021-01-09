@@ -83,13 +83,13 @@ em {
     height: 10rem;
     width: 10rem;
     margin-left: 2.5rem;
+    margin-bottom: 1rem;
     border: 5px solid #343a40;
 }
 
 /* change font from bootstrap defaults */
 .portfolioFontChange {
     font-size: 1.3rem;
-    margin-top: 1rem;
     margin-left: 3rem;
 }
 
