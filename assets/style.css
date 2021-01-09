@@ -83,6 +83,7 @@ em {
     height: 10rem;
     width: 10rem;
     margin-left: 2.5rem;
+    border: 5px solid #343a40;
 }
 
 /* change font from bootstrap defaults */
