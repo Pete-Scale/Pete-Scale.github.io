@@ -1,6 +1,6 @@
 # Responsive-Portfolio README
 
-![Pete Scale Webpage](./assets/portfolio_image.png)
+![Pete Scale Webpage](./assets/about-me.png)
 
 Used Bootstrap CSS Framework to create a mobile responsive portfolio.
 
